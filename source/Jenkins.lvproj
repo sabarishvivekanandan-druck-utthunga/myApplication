@@ -40,10 +40,10 @@
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/vivesab/OneDrive - Baker Hughes/Desktop/Build/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/vivesab/OneDrive - Baker Hughes/Desktop/Build</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E8C0B992-03DF-48CD-B372-109B55A24DD9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9978E14B-BA14-406A-8DFC-D6A0AFEE86AA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Add.vi</Property>
