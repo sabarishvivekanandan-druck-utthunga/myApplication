@@ -14,8 +14,19 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
+		<Item Name="Intialize.vi" Type="VI" URL="../Intialize.vi"/>
 		<Item Name="Subtract.vi" Type="VI" URL="../Subtract.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="GE PACE Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/GE PACE Series/GE PACE Series.lvlib"/>
+			</Item>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="myBuildSpec" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
